@@ -60,6 +60,7 @@ public class eduservice {
         strategy.setRestControllerStyle(true); //restful api风格控制器
         strategy.setControllerMappingHyphenStyle(true); //url中驼峰转连字符
         mpg.setStrategy(strategy);
+        System.out.println("更新1");
         // 6、执行
         mpg.execute();
     }
